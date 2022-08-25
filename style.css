@@ -1,0 +1,36 @@
+
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+    touch-action: none;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+}
+
+#map{
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    overflow: hidden;
+    touch-action: none;
+}
+
+
+svg {
+    border: dashed 1px greenyellow;
+    touch-action: manipulation;
+    scale : 1;
+    touch-action: none;
+}
