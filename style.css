@@ -1,0 +1,10 @@
+canvas  {
+    position : absolute;
+    top : 0px;
+    left : 0px;
+    z-index: 2;
+}
+body {
+    background:#bbb;
+    touch-action: none;
+}
